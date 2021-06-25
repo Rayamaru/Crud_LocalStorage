@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+
+
+    <title>CRUD Local Storage</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+
+        <h3>
+            <i class="material-icons">
+                accessibility
+            </i>
+            GYM
+        </h3>
+
+        <form id="formulario">
+            <input type="text" id="actividad" class="form-control">
+            <button type="submit" class="btn btn-primary my-2">Guardar</button>
+        </form>
+
+        <div id="listaActividades" class="mt-4">
+
+
+            <div class="alert alert-danger" role="alert">
+                <i class="material-icons float-left mr-2">
+                    accessibility
+                </i>
+                <b>Texto de la Actividad</b> - Estado
+                <span class="float-end">
+                    <i class="material-icons m-1" type="button">
+                        done
+                    </i>
+                    <i class="material-icons m-1" type="button">
+                        delete
+                    </i>
+                </span>
+            </div>
+
+        </div>
+
+        
+
+
+
+        <!-- Optional JavaScript -->
+        <script rel="script" href="./bootstrap/js/bootstrap.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        </script>
+        <script src="./CRUD.js"></script>
+    </div>
+
+</body>
+
+</html>
